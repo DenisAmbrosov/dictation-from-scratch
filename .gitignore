@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+recordings/
+.DS_Store
+notebooks/superseded/
+screenshots/probe.png

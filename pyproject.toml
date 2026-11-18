@@ -1,0 +1,22 @@
+[project]
+name = "dictation-from-scratch"
+version = "0.1.0"
+description = "An AI dictation pipeline built from scratch, one stage per notebook, timed against Wispr Flow's 700 ms latency budget"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "elevenlabs>=2.61.0",
+    "groq>=1.6.0",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.1",
+    "onnxruntime>=1.28.0",
+    "pynput>=1.8.2",
+    "pyobjc-framework-applicationservices>=12.2.1",
+    "pyobjc-framework-cocoa>=12.2.1",
+    "pyobjc-framework-quartz>=12.2.1",
+    "python-dotenv>=1.2.2",
+    "silero-vad>=6.2.1",
+    "sounddevice>=0.5.5",
+    "soundfile>=0.14.0",
+]
